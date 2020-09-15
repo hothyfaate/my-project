@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container
+{   
+    margin: auto;
+    width: 90%;
+    padding: 20px 30px;
+}
+.alex
+{
+    background-image: url(img/img/slider/slider-01.jpg);
+    background-size: cover;
+    height: 100%;
+
+    
+}
+.lir
+{
+     background-color: rgba(0, 0,0 , 0.6);
+    height: 100%;
+
+
+}
+.alex-itm
+{   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.alex-itm h1
+{
+    margin: 20px 0px;
+    font-size: 38px;
+    color:#ff305b;
+}
+.alex-itm p
+{
+    font-size: 25px;
+    color: white;
+}
+.alex-itm h3
+{
+    color: white;
+    font-size: 18px;
+}
+.nav
+{
+    overflow: auto;
+}
+.nav-itm
+{
+    
+    display: flex;
+    justify-content: space-between;    
+}
+.link
+{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+   
+}
+.link a
+{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+.link a:hover
+{
+    color: #ff305b;
+}
+
+.fokir h2
+{
+    font-size: 24px;
+    color: #ff305b;
+   
+}
+.hello
+{
+   
+    overflow: auto;
+    display: flex;
+    padding: 60px;
+    margin-left: 100px;
+    
+}
+.hello-img
+{
+    
+    position: relative;
+    
+}
+.test
+{
+    
+    border: solid 5px ;
+    color: #555555;
+    border-radius: 5px;
+    width: 360px;
+    height: 440px;
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+    z-index: -1;
+    
+}
+.test1
+{
+   
+    width: 360px;
+    height: 0px;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    transition: height 1s;
+}
+.hover:hover .test1
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 445px;
+}
+.hello-itm h2
+{
+    padding-left:  50px;
+}
+
+
+.hello-itm p
+{
+    padding: 30px 50px;
+    line-height: 2;
+}
+.line
+{
+    margin: auto;
+    width: 700px;
+    border:dashed 1px;
+}
+.id
+{
+  
+    margin: auto;
+    padding: 20px 50px;
+    display: flex;
+    
+}
+.id2
+{
+    margin-left: 60px;
+}
+.id h3
+{
+    margin-bottom: 20px;
+}
+.button-itm
+{
+   
+    margin: auto;
+    padding: 10px 30px;
+}
+.button
+{
+    border: 0px;
+    border-radius: 5px;
+    padding: 20px 28px;
+    margin-left: 15px;
+    background-color: #ff305b;
+    color: #ffffff;
+    transition: background-color 1s;
+}
+
+.button:hover
+{
+    background-color: #ec2043;
+}
+.Our-Services
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.our-b
+{
+    display: flex;
+    justify-content: center;
+}
+.services-line1
+{
+    background-color: #ff305b;
+    width: 200px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-left: 525px;
+}
+.services-line
+{
+    background-color: #ff305b;
+    width: 100px;
+    height: 1px;
+    margin: auto;
+    
+}
+.services
+{
+    background-color: #f1f1f1;
+    color: #555555;
+    padding: 50px;
+}
+.Our-Services
+{
+    text-align: center;
+    padding: 40px 0px;
+   
+}
+.services h2
+{
+    font-size: 40px;
+    color: #333333;
+}
+.Our-Services1 h2
+{
+    font-size: 24px;
+    color: #333333;
+    margin: 0px 0px 15px;
+}
+.Our-Services1 p
+{
+    color: #555555;
+}
+.Our-Services1
+{
+    padding: 20px 30px;
+   
+}
+.our-h 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+.Our-Services1:hover
+{
+    background-color: white;
+}
+.Portfolio-line
+{
+    background-color: #ff305b;
+    width: 100px;
+    height: 1px;
+    margin: auto;
+    
+}
+.Portfolio-line1
+{
+    background-color: #ff305b;
+    width: 200px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-left: 570px;
+}
+.protfolio-link
+{
+    text-align: center;
+    margin: 50px;
+}
+.protfolio-link a
+{
+    padding: 3px 12px;
+    color: #333333;
+    text-decoration: none;
+}
+.Our-Portfolio h2
+{
+    font-size: 40px ;
+    color: #333333;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+.our-portfolio-img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.our-portfolio-img img
+{
+    width: 33.3%;
+    padding: 40px;
+}
+.number
+{
+    background-color: #f1f1f1;
+    color: #555555;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+.number h2
+{
+    color: #333333;
+    padding-left: 45px;
+    padding-bottom: 20px;
+}
